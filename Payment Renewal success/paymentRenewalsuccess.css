@@ -1,0 +1,72 @@
+* {
+  align-items: center;
+  font-family: "Avenir";
+}
+h1 {
+  font-size: 24px;
+}
+.all {
+  margin-top: 64px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ssg-btn {
+  background-color: #8461c9;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+.label-btn {
+  font-size: 12px;
+}
+.body-text {
+  margin-top: 48px;
+  margin-bottom: 48px;
+
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 32px;
+  font-size: 15px;
+}
+.divider {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  width: 600px;
+  height: 2px;
+  border-top: gray;
+  border-radius: 5px;
+}
+.footer {
+  font-size: 14px;
+  color: grey;
+}
+a {
+  color: #8461c9;
+  text-decoration: none;
+}
+.feature {
+  display: flex;
+  flex-direction: row;
+  margin: 32px;
+}
+.feature-desc {
+  text-align: left;
+  width: 250px;
+}
+.feature-title {
+  text-align: left;
+}
+.feature-img {
+  padding: 0 24px;
+}
